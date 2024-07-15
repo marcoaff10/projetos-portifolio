@@ -158,6 +158,7 @@ div.content-header .one form input {
     height: 60px;
     padding: 0 8px;
     border-radius: 10px;
+    margin: 5px 0;
     border: 2px solid #ccc;
 }
 
@@ -178,6 +179,7 @@ div.content-header .one form button {
     border: none;
     transition: .4s;
     border-radius: 10px;
+    margin: 5px 0;
     color: white;
     background-color: #509d87;
 }
