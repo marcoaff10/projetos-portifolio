@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.header-master {
+    width: 100%;
+    padding: 30px 0;
+    min-height: 700px;
+    background-image: url('../images/bg_01.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.header-master header {
+    border-bottom:  2px solid rgba(71, 83, 88, .2);
+}
+
+div.logo {
+    float: left;
+    width: 166px;
+    height: 64px;
+    font-size: 30px;
+}
+
+header nav {
+    float: left;
+    padding: 10px 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 15px;
+    color: white;
+}
+
+li.selected {
+    position: relative;
+    font-weight: 600;
+    color: #509d87;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.telefone-header {
+    padding-top: 5px;
+    float: left;
+}
+
+div.telefone-header span {
+    font-size: 20px;
+    padding-left: 25px;
+    color: white;
+}
+
+/*Sessão content-header*/
+
+div.content-header {
+    padding: 50px 0;
+}
+
+div.content-header .one {
+    float: left;
+    width: 50%;
+}
+
+div.content-header .one h2 {
+    font-weight: normal;
+    font-size: 37px;
+    color: #509d87;
+}
+
+div.content-header .one p {
+    margin: 15px 0;
+}
+
+div.content-header .one form input {
+    width: 251px;
+    height: 60px;
+    padding: 0 8px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+div.content-header .one form {
+    margin-bottom: 15px;
+}
+
+div.content-header .one form input:focus {
+    outline: 0;
+}
+
+div.content-header .one form button {
+    height: 60px;
+    width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    transition: .4s;
+    border-radius: 10px;
+    color: white;
+    background-color: #509d87;
+}
+
+div.content-header .one form button:hover {
+    background-color: #3f7969;
+}
+
+div.content-header .one span {
+    color: #509d87;
+}
+
+div.content-header .one span a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #509d87;
+}
+
+div.content-header .two {
+    float: left;
+    width: 50%;
+    padding: 0 30px;
+}
+
+div.content-header .two  img {
+    float: left;
+    width: 44%;
+    margin: 12px 3%;
+}
+
+
+/* sessão diferenciais*/
+
+section.diferenciais {
+    padding: 40px 0;
+}
+
+section.diferenciais .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.diferenciais .diferencial-single {
+    width: 33.33%;
+    margin: 30px 0;
+    padding: 0 8px;
+}
+
+div.diferencial-single img {
+    max-width: 100%;
+}
+
+div.diferencial-single h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 400;
+    color: black;
+}
+
+div.diferencial-single h2 b {
+    font-weight: 400;
+    color: #7dd5b0;
+}
+
+div.diferencial-single p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+/* sessão sobre*/
+section.sobre {
+    padding: 40px 0;
+}
+
+section.sobre .container {
+    max-width: 1280px;
+}
+
+section.sobre .sobre-container {
+    width: 50%;
+    float: left;
+}
+
+section.sobre .sobre-container img {
+    max-width: 100%;
+}
+
+section.sobre .sobre-container h2 {
+    font-size: 33px;
+    margin: 10px 0;
+    font-weight: normal;
+    color: #d4ded9;
+}
+
+section.sobre .sobre-container h2 b {
+    color: #03ca9f;
+}
+
+section.sobre .sobre-container .sobre-autor {
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 860px) {
+    div.content-header .one {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.telefone-header{display: none;}
+
+    div.content-header .two {
+        display: none;
+    }
+
+    nav.desktop {
+        display: none;
+    }
+
+    section.diferenciais .diferencial-single {
+        width: 100%;
+    }
+
+    section.sobre .sobre-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
